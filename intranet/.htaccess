@@ -1,0 +1,10 @@
+Options -Indexes
+
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+ErrorDocument 401 /401.html
+
+AuthType Basic
+AuthName "Accès restreint"
+AuthUserFile /siteweb/.htpasswd
+Require valid-user 
